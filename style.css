@@ -1,0 +1,65 @@
+body {
+  font-family: Consolas;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+h1 {
+  color: #58a6ff;
+  text-shadow: 7px 7px 7px blueviolet;
+  text-align: center;
+}
+
+a {
+  color: #8b949e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1f6feb;
+  font-size: 20px;
+  text-shadow: 7px 7px 7px blueviolet;
+  font-weight: bold;
+}
+
+a::after {
+  content: "🚀";
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul > li {
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+ul li:hover {
+  color: #4f8cc9;
+  text-shadow: 7px 7px 7px blueviolet;
+  font-size: 20px;
+}
+
+ul li::before {
+  content: "🌟";
+}
+
+ul li:nth-child(3) {
+  background-color: #21262d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #ff7b72;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px;
+}
